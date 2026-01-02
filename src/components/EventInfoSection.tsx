@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { Feather,CircleQuestionMark    } from 'lucide-react';
+import { CircleQuestionMark, Feather } from 'lucide-react';
 
 
 const EventInfoSection = () => {
   return (
-    <section className="relative z-10 py-24 px-4">
+    <section className="relative z-10 py-0 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8">
          <motion.div
@@ -38,7 +38,7 @@ const EventInfoSection = () => {
   transition={{ duration: 0.5, delay: 0.1 }}
   className="bg-card/50 backdrop-blur-sm border border-border/30 rounded-2xl p-8 text-center hover:border-accent/30 transition-colors duration-300"
 >
-   <Feather   className="w-12 h-12 text-accent mx-auto mb-4" />
+   <CircleQuestionMark   className="w-12 h-12 text-accent mx-auto mb-4" />
   <h3 className="text-2xl text-foreground mb-4">
     কোর্সটি কেন করবেন?
   </h3>

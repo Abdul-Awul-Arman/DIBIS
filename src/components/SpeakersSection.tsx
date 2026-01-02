@@ -29,7 +29,7 @@ const speakers = [
 
 const SpeakersSection = () => {
   return (
-    <section className="relative z-10 py-24 px-4">
+    <section className="relative z-10 py-14 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
