@@ -1,6 +1,6 @@
 import calligraphyBg from "@/assets/calligraphy-background-stroke.png";
 import { motion } from "framer-motion";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 const HeroSection = () => {
   return (
@@ -54,7 +54,7 @@ const HeroSection = () => {
           className="mb-8"
         >
           <div className="flex flex-col items-center">
-            <img src={logo} alt="logo" className="max-w-[400px]" />
+            <img src={logo} alt="logo" className="max-w-[300px]" />
             </div>
         </motion.div>
 
@@ -67,10 +67,10 @@ const HeroSection = () => {
         >
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-sm uppercase tracking-wider text-foreground">
-          ইসলামের মৌলিক জ্ঞান—কুরআন ও সুন্নাহর আলোকে, সালাফের পথ অনুসরণে।
+          কূরআন ও সুন্নাহ আলোকে, সালাফের পথে
           </span>
         </motion.div>
-
+ 
         {/* Title */}
         {/* <motion.h1
           initial={{ opacity: 0, y: 20 }}

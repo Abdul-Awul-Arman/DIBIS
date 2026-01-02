@@ -15,6 +15,7 @@ const Index = () => {
       <EventInfoSection />
       <ScheduleSection />
       {/* <RegistrationSection /> */}
+      
       <Footer />
     </main>
   );

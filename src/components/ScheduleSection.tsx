@@ -1,6 +1,6 @@
 import abdullahilKafiMadani from "../assets/abdullahil_kafi_madani.svg";
-import majedulIslamMadani from "../assets/majedul_islam_madani.svg";
 import akmalHossainMadani from "../assets/akmal_hossain_madani.svg";
+import majedulIslamMadani from "../assets/majedul_islam_madani.svg";
 import sakhawatHossainJazani from "../assets/sakhawat_hossain_jazani.svg";
 
 
@@ -177,7 +177,17 @@ const ScheduleSection = () => {
           </div>
         </div>
       </div>
-      
+      <div className="flex justify-center mt-5" >
+        <a
+                        href="#registration"
+                        className="flex max-w-[250px]  justify-between items-center gap-1 mt-4 px-4 py-2 bg-cta text-cta-foreground rounded-full text-xs font-medium hover:bg-cta/90 transition-all duration-300 group-hover:scale-105"
+                      >
+                        রিজিস্ট্রেশন করতে এখানে ক্লিক করুন
+                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </a>
+      </div>
     </section>
   );
 };
