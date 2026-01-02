@@ -1,6 +1,6 @@
 import calligraphyBg from "@/assets/calligraphy-background-stroke.png";
 import { motion } from "framer-motion";
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 
 const HeroSection = () => {
   return (
@@ -47,7 +47,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         {/* Logo */}
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -56,7 +56,7 @@ const HeroSection = () => {
           <div className="flex flex-col items-center">
             <img src={logo} alt="logo" className="max-w-[400px]" />
             </div>
-        </motion.div> */}
+        </motion.div>
 
         {/* Badge */}
         <motion.div
@@ -72,7 +72,7 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Title */}
-        <motion.h1
+        {/* <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -82,7 +82,7 @@ const HeroSection = () => {
             ডিপ্লোমা ইন বেসিক ইসলামিক স্টাডিজ
           </span>
         
-        </motion.h1>
+        </motion.h1> */}
 
         {/* Subtitle */}
         <motion.p
