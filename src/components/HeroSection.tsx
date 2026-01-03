@@ -71,21 +71,7 @@ const HeroSection = () => {
           </span>
         </motion.div>
 
-       <motion.div className="relative mb-5  overflow-hidden p-4 px-8 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
-            <motion.div
-              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-              initial={{ x: "-150%" }}
-              animate={{ x: "350%" }}
-              transition={{
-                repeat: Infinity,
-                repeatType: "loop",
-                duration: 2,
-                repeatDelay: .4,
-                ease: "easeInOut",
-              }}
-            />
-            <span className="relative z-10">এটি একটি অফলাইন কোর্স। কোর্সটির প্রতিটি ক্লাস অনুষ্ঠিত হবে আত-তাক্বওয়া মাসজিদ এন্ড ইসলামিক সেন্টার, কুমারপাড়া, সিলেট-এ।</span>
-          </motion.div>
+       
  
         {/* Title */}
         {/* <motion.h1
@@ -151,6 +137,22 @@ const HeroSection = () => {
           </div>
         </motion.a>
         </div>
+
+        <motion.div className="relative mt-10  overflow-hidden p-4 px-8 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">এটি একটি অফলাইন কোর্স। কোর্সটির প্রতিটি ক্লাস অনুষ্ঠিত হবে আত-তাক্বওয়া মাসজিদ এন্ড ইসলামিক সেন্টার, কুমারপাড়া, সিলেট-এ।</span>
+          </motion.div>
 
       </div>
     
