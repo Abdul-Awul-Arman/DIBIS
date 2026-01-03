@@ -157,7 +157,7 @@ const ScheduleSection = () => {
 
                       {/* Optional Button */}
                       <a
-                        href="#registration"
+                        href="https://crm.attaqwamasjidsylhet.com/attaqwamasjid/courses/diploma-in-basic-islamic-studies/enroll"
                         className="flex justify-between items-center gap-1 mt-4 px-4 py-2 bg-cta text-cta-foreground rounded-full text-xs font-medium hover:bg-cta/90 transition-all duration-300 group-hover:scale-105"
                       >
                         
@@ -180,7 +180,7 @@ const ScheduleSection = () => {
 
  <div className="flex justify-center">
            <motion.a
-          href="#registration"
+          href="https://crm.attaqwamasjidsylhet.com/attaqwamasjid/courses/diploma-in-basic-islamic-studies/enroll"
           // Added: 'relative', 'overflow-hidden', inner shadow for static gloss, and ring for edge highlight
           className="relative overflow-hidden flex max-w-[280px] h-16 justify-between items-center gap-1 mt-4 px-4 py-2 bg-cta text-cta-foreground rounded-full text-md font-medium hover:bg-cta/90 transition-all duration-300 group-hover:scale-105 shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10"
         >
