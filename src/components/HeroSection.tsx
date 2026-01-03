@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 ">
+    <section className="  flex flex-col  items-center justify-center px-4 ">
       {/* Gradient Background */}
       <div className="fixed inset-0 z-0 gradient-background" />
       
@@ -45,7 +45,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-4xl mx-auto">
+      <div className="relative mt-[0] z-10 text-center max-w-4xl mx-auto">
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
