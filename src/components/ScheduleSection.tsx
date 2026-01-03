@@ -20,7 +20,7 @@ const curriculumData = [
 
     ],
     speakerImage: abdullahilKafiMadani,
-    syllabusPdf:"/src/assets/pdf/DIBIS (ফিকহুল উসরা).pdf"
+    syllabusPdf:"/assets/pdf/DIBIS (ফিকহুল উসরা).pdf"
   },
   {
     topic: "আক্বীদা",
@@ -34,7 +34,7 @@ const curriculumData = [
       "৫. আহলুস সুন্নাহ ওয়াল জামা’আত এর পরিচয়, ঈসা (আ.), ইমাম মাহদির আগমণ, ইয়াজূজ-মাজূজ।"
     ],
     speakerImage: majedulIslamMadani,
-    syllabusPdf:"/src/assets/pdf/DIBIS (আক্বীদা.pdf"
+    syllabusPdf:"/assets/pdf/DIBIS (আক্বীদা).pdf"
   },
   {
     topic: "সিরাহ",
@@ -48,7 +48,7 @@ const curriculumData = [
       "৫. রাসূল (সা.) কে যাদু, হত্যার চেষ্টা, প্রতিনিধি দলের আগমন, বিদায় হজ্জ, রাসূল (সা.) এর পরিবার আচার-আচরণ ও গুণাবলী, মুজিজা, মিথ্যা বানোয়াট বর্ণনা ইত্যাদি।"
     ],
     speakerImage: akmalHossainMadani,
-    syllabusPdf:"/src/assets/pdf/DIBIS (সিরাহ).pdf"
+    syllabusPdf:"/assets/pdf/DIBIS (সিরাহ).pdf"
   },
   {
     topic: "ফিকহুল ইবাদাত",
@@ -62,7 +62,7 @@ const curriculumData = [
       "৫. ভূমি ও জমিতে উৎপাদিত পণ্যের যাকাত, যাকাতুল ফিতর, যাকাত বণ্টনের খাত, হজ্জ ও ওমরায় করণীয়।"
     ],
     speakerImage: sakhawatHossainJazani,
-    syllabusPdf:"/src/assets/pdf/DIBIS (ফিকহুল ইবাদাত).pdf"
+    syllabusPdf:"/assets/pdf/DIBIS (ফিকহুল ইবাদাত).pdf"
   },
 
 
