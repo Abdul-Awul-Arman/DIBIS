@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { CircleQuestionMark, Feather } from 'lucide-react';
+import { CircleQuestionMark, Feather,Info   } from 'lucide-react';
 
 
 const EventInfoSection = () => {
   return (
     <section className="relative z-10 py-0 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
          <motion.div
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
@@ -54,6 +54,40 @@ const EventInfoSection = () => {
     ইসলামের প্রয়োজনীয় মৌলিক জ্ঞান অর্জন করতে পারেন।
   </p>
 </motion.div>
+     <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5, delay: 0.1 }}
+  className="bg-card/50 backdrop-blur-sm border border-border/30 rounded-2xl p-8 text-center hover:border-accent/30 transition-colors duration-300"
+>
+  <Info  className="w-12 h-12 text-accent mx-auto mb-4" />
+
+  <h3 className="text-2xl text-foreground mb-4">
+    কোর্স ভেন্যু
+  </h3>
+
+  <p className="text-muted-foreground text-sm leading-relaxed">
+    <strong>ডিপ্লোমা ইন বেসিক ইসলামিক স্টাডিজ</strong> একটি এক বছর মেয়াদি
+    অফলাইন কোর্স, যা দুই সেমিস্টারে সম্পন্ন হবে, ইনশাআল্লাহ।
+    কোর্সটির প্রতিটি ক্লাস অনুষ্ঠিত হবে
+    <strong> আত-তাক্বওয়া মাসজিদ এন্ড ইসলামিক সেন্টার, কুমারপাড়া, সিলেট</strong>-এ।
+    <br /><br />
+
+    প্রতি মাসের ১ম, ২য় ও ৪র্থ সপ্তাহের শনিবার বাদ মাগরিব থেকে এক ঘণ্টা করে
+    দুইটি ক্লাস এবং ৩য় সপ্তাহের শুক্রবার বাদ মাগরিব দুই ঘণ্টার একটি ক্লাস
+    অনুষ্ঠিত হবে।
+    <br /><br />
+
+    <strong>ভর্তির শেষ তারিখ:</strong> ১৫ জানুয়ারি ২০২৬ <br />
+    <strong>ক্লাস শুরুর তারিখ:</strong> ১৬ জানুয়ারি ২০২৬
+    <br /><br />
+
+    নিয়মিত উপস্থিতির ভিত্তিতে শিক্ষার্থীদের জন্য
+    <strong> পুরস্কারের ব্যবস্থা</strong> থাকবে, ইনশাআল্লাহ।
+  </p>
+</motion.div>
+
 
         </div>
       </div>

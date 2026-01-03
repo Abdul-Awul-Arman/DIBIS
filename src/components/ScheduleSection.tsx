@@ -19,7 +19,8 @@ const curriculumData = [
   "৫. সন্তান প্রতিপালন ও পারিবারিক তরবিয়াহ"
 
     ],
-    speakerImage: abdullahilKafiMadani
+    speakerImage: abdullahilKafiMadani,
+    syllabusPdf:"/src/assets/pdf/DIBIS (ফিকহুল উসরা).pdf"
   },
   {
     topic: "আক্বীদা",
@@ -32,7 +33,8 @@ const curriculumData = [
       "৪. ঈমান ভঙ্গকারী বিষয়সমূহ, তাগুতের প্রকারভেদ, কিয়ামতের আলামত।",
       "৫. আহলুস সুন্নাহ ওয়াল জামা’আত এর পরিচয়, ঈসা (আ.), ইমাম মাহদির আগমণ, ইয়াজূজ-মাজূজ।"
     ],
-    speakerImage: majedulIslamMadani
+    speakerImage: majedulIslamMadani,
+    syllabusPdf:"/src/assets/pdf/DIBIS (আক্বীদা.pdf"
   },
   {
     topic: "সিরাহ",
@@ -45,7 +47,8 @@ const curriculumData = [
       "৪. দুঃখের বছর, তায়েফ গমন, আয়েশা (রা.) এর সাথে বিবাহ, মদিনায় হিজরত, বিভিন্ন যুদ্ধের ঘটনা ইত্যাদি।",
       "৫. রাসূল (সা.) কে যাদু, হত্যার চেষ্টা, প্রতিনিধি দলের আগমন, বিদায় হজ্জ, রাসূল (সা.) এর পরিবার আচার-আচরণ ও গুণাবলী, মুজিজা, মিথ্যা বানোয়াট বর্ণনা ইত্যাদি।"
     ],
-    speakerImage: akmalHossainMadani
+    speakerImage: akmalHossainMadani,
+    syllabusPdf:"/src/assets/pdf/DIBIS (সিরাহ).pdf"
   },
   {
     topic: "ফিকহুল ইবাদাত",
@@ -58,7 +61,8 @@ const curriculumData = [
       "৪. যাকাতের প্রকারভেদ, স্বর্ণ-রৌপ্য, ঋণ, ব্যবসায়িক পণ্য, নগদ অর্থ, গৃহপালিত পশুর যাকাত।",
       "৫. ভূমি ও জমিতে উৎপাদিত পণ্যের যাকাত, যাকাতুল ফিতর, যাকাত বণ্টনের খাত, হজ্জ ও ওমরায় করণীয়।"
     ],
-    speakerImage: sakhawatHossainJazani
+    speakerImage: sakhawatHossainJazani,
+    syllabusPdf:"/src/assets/pdf/DIBIS (ফিকহুল ইবাদাত).pdf"
   },
 
 
@@ -157,7 +161,9 @@ const ScheduleSection = () => {
 
                       {/* Optional Button */}
                       <a
-                        href="https://crm.attaqwamasjidsylhet.com/attaqwamasjid/courses/diploma-in-basic-islamic-studies/enroll"
+                        href={event.syllabusPdf}
+                         target="_blank"
+                        rel="noopener noreferrer"
                         className="flex justify-between items-center gap-1 mt-4 px-4 py-2 bg-cta text-cta-foreground rounded-full text-xs font-medium hover:bg-cta/90 transition-all duration-300 group-hover:scale-105"
                       >
                         
