@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import { CircleQuestionMark, Feather,Info   } from 'lucide-react';
+import { CircleQuestionMark, Feather, Info } from 'lucide-react';
 
 
 const EventInfoSection = () => {
   return (
     <section className="relative z-10 py-0  px-4">
+      
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8">
          <motion.div
@@ -91,6 +92,32 @@ const EventInfoSection = () => {
 
         </div>
       </div>
+
+        {/* Course Benefits Pills */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="flex flex-wrap justify-center items-center gap-4 mt-16"
+        >
+          <span className="h-[50px] px-8 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
+            রেকর্ডেড ক্লাস
+          </span>
+          <span className="h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white" style={{ backgroundColor: '#f98c10' }}>
+            হ্যান্ড নোট
+          </span>
+          <span className="h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
+            ক্লাস টেস্ট
+          </span>
+          <span className="h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white" style={{ backgroundColor: '#f98c10' }}>
+            পুরুস্কার
+          </span>
+          <span className="h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
+            সার্টিফিকেট
+          </span>
+        </motion.div>     
+      
     </section>
   );
 };

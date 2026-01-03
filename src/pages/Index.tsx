@@ -13,6 +13,7 @@ const Index = () => {
       <HeroSection />
       <SpeakersSection />
       <EventInfoSection />
+      
       <ScheduleSection />
       {/* <RegistrationSection /> */}
       

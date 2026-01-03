@@ -53,8 +53,8 @@ const HeroSection = () => {
           transition={{ duration: 1 }}
           className="mb-1"
         >
-          <div className="flex flex-col items-center">
-            <img src={logo} alt="logo" className="max-w-[200px]" />
+          <div className="flex flex-col items-center mb-5">
+            <img src={logo} alt="logo" className="max-w-[250px]" />
             </div>
         </motion.div>
 
@@ -95,6 +95,7 @@ const HeroSection = () => {
 সালাফদের মানহাজের আলোকে সঠিক আক্বিদাহ ও প্রকৃত আমল শিক্ষা প্রদানের উদ্দেশ্যে এবং সহীহ দ্বীনের দাওয়াত সর্বত্র ছড়িয়ে দেওয়ার প্রত্যয় নিয়ে আমাদের এই আয়োজন। মানুষের আক্বীদা, আমল-আখলাক ও দৈনন্দিন মুয়ামালাত পরিশুদ্ধ করাই কোর্সের লক্ষ ও উদ্দেশ্য। কোর্সটি সাজানো হয়েছে আক্বীদা, ফিক্বহুল উসরাহ, ফিক্বহুল ইবাদাত এবং সিরাহ বিষয়ের আলোকে। 
 
         </motion.p>
+        
         <div className="flex justify-center">
            <motion.a
           href="https://crm.attaqwamasjidsylhet.com/attaqwamasjid/courses/diploma-in-basic-islamic-studies/enroll"
