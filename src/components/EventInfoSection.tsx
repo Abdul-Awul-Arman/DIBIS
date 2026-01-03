@@ -101,21 +101,85 @@ const EventInfoSection = () => {
           viewport={{ once: true }}
           className="flex flex-wrap justify-center items-center gap-4 mt-16"
         >
-          <span className="h-[50px] px-8 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
-            রেকর্ডেড ক্লাস
-          </span>
-          <span className="h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white" style={{ backgroundColor: '#f98c10' }}>
-            হ্যান্ড নোট
-          </span>
-          <span className="h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
-            ক্লাস টেস্ট
-          </span>
-          <span className="h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white" style={{ backgroundColor: '#f98c10' }}>
-            পুরুস্কার
-          </span>
-          <span className="h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center">
-            সার্টিফিকেট
-          </span>
+          <motion.div className="relative overflow-hidden h-[50px] px-8 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">রেকর্ডেড ক্লাস</span>
+          </motion.div>
+
+          <motion.div className="relative overflow-hidden h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10" style={{ backgroundColor: '#f98c10' }}>
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">হ্যান্ড নোট</span>
+          </motion.div>
+
+          <motion.div className="relative overflow-hidden h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">ক্লাস টেস্ট</span>
+          </motion.div>
+
+          <motion.div className="relative overflow-hidden h-[50px] px-8 py-2 rounded-full text-sm font-semibold flex items-center text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10" style={{ backgroundColor: '#f98c10' }}>
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">পুরুস্কার</span>
+          </motion.div>
+
+          <motion.div className="relative overflow-hidden h-[50px] px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10">সার্টিফিকেট</span>
+          </motion.div>
         </motion.div>     
       
     </section>
