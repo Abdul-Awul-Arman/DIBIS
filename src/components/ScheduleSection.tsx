@@ -79,7 +79,7 @@ const ScheduleSection = () => {
             কোর্স কারিকুলাম
           </h2>
           <p className="text-muted-foreground text-lg">
-            ১৭ জানুয়ারি ২০২৫ জুমআবার থেকে
+           ডিপ্লোমা ইন বেসিক ইসলামিক স্টাডিজ
           </p>
           <div className="flex items-center justify-center gap-4 mt-4">
             <span className="text-accent text-sm">সিলেট</span>

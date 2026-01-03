@@ -50,7 +50,7 @@ const HeroSection = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 1 }}
           className="mb-8"
         >
           <div className="flex flex-col items-center">
