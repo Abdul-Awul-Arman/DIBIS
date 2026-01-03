@@ -4,7 +4,7 @@ import { CircleQuestionMark, Feather,Info   } from 'lucide-react';
 
 const EventInfoSection = () => {
   return (
-    <section className="relative z-10 py-0 px-4">
+    <section className="relative z-10 py-0  px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8">
          <motion.div
@@ -64,7 +64,7 @@ const EventInfoSection = () => {
   <Info  className="w-12 h-12 text-accent mx-auto mb-4" />
 
   <h3 className="text-2xl text-foreground mb-4">
-    কোর্স ভেন্যু
+  লক্ষ করুন
   </h3>
 
   <p className="text-muted-foreground text-sm leading-relaxed">

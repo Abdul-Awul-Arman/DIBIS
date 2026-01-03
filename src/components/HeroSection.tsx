@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 pt-20">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 ">
       {/* Gradient Background */}
       <div className="fixed inset-0 z-0 gradient-background" />
       
@@ -51,10 +51,10 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="mb-8"
+          className="mb-1"
         >
           <div className="flex flex-col items-center">
-            <img src={logo} alt="logo" className="max-w-[300px]" />
+            <img src={logo} alt="logo" className="max-w-[200px]" />
             </div>
         </motion.div>
 
@@ -67,7 +67,7 @@ const HeroSection = () => {
         > 
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-sm uppercase tracking-wider text-foreground">
-          কুরআন ও সুন্নাহ আলোকে, সালাফের পথে
+          কুরআন ও সুন্নাহ আলোকে, সালাফদের পথে
           </span>
         </motion.div>
  
@@ -89,7 +89,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-muted-foreground text-sm md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
          
 সালাফদের মানহাজের আলোকে সঠিক আক্বিদাহ ও প্রকৃত আমল শিক্ষা প্রদানের উদ্দেশ্যে এবং সহীহ দ্বীনের দাওয়াত সর্বত্র ছড়িয়ে দেওয়ার প্রত্যয় নিয়ে আমাদের এই আয়োজন। মানুষের আক্বীদা, আমল-আখলাক ও দৈনন্দিন মুয়ামালাত পরিশুদ্ধ করাই কোর্সের লক্ষ ও উদ্দেশ্য। কোর্সটি সাজানো হয়েছে আক্বীদা, ফিক্বহুল উসরাহ, ফিক্বহুল ইবাদাত এবং সিরাহ বিষয়ের আলোকে। 
