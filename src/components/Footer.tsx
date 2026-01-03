@@ -1,3 +1,4 @@
+import atTawaLogo from "/src/assets/favicon.png";
 const Footer = () => {
   return (
     <footer className="relative z-10  bg-gradient-to-b m-5 md:m-20 border border-white/10 bg-white/5 rounded-xl">
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="space-y-2">
               <h3 className="text-2xl font-bold text-foreground"></h3>
-                <img className="max-w-[100px]" src="/src/assets/favicon.png" alt="At-Taqwa Masjid & Islamic Center" />
+                <img className="max-w-[100px]" src={atTawaLogo} alt="At-Taqwa Masjid & Islamic Center" />
               <p className="text-sm text-muted-foreground font-medium">At-Taqwa Masjid & Islamic Center</p>
               <p className="text-xs text-muted-foreground leading-relaxed">
                 At-Taqwa Masjid & Islamic Center
