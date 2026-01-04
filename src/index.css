@@ -71,21 +71,36 @@
   }
 }
 
+.marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 
+.marquee-track {
+  display: flex;
+  width: max-content; /* 🔑 critical */
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
 
-/* Marquee animation */
+/* Smooth infinite scroll */
 @keyframes marquee {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-33.333%);
   }
 }
 
-.animate-marquee {
-  animation: marquee 10s linear infinite;
+/* Mobile speed */
+@media (max-width: 768px) {
+  .marquee-track {
+    animation-duration: 18s;
+  }
 }
+
+
 
 /* Scroll indicator animation */
 @keyframes scroll-bounce {
