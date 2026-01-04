@@ -67,9 +67,9 @@ const HeroSection = () => {
         > 
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
           <span className="text-sm uppercase tracking-wider text-foreground">
-          কুরআন ও সুন্নাহ আলোকে, সালাফদের পথে
+          কুরআন এবং সুন্নাহর আলোকে , সালাফদের পথে
           </span>
-        </motion.div>
+        </motion.div> 
 
        
  
