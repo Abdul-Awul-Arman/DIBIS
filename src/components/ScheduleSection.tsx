@@ -3,6 +3,7 @@ import abdullahilKafiMadani from "../assets/abdullahil_kafi_madani.svg";
 import akmalHossainMadani from "../assets/akmal_hossain_madani.svg";
 import majedulIslamMadani from "../assets/majedul_islam_madani.svg";
 import sakhawatHossainJazani from "../assets/sakhawat_hossain_jazani.svg";
+import { Plane } from "lucide-react";
 
 
 const curriculumData = [
@@ -71,7 +72,7 @@ const curriculumData = [
 
 const ScheduleSection = () => {
   return (
-    <section id="schedule" className="relative z-10 pt-24 px-4">
+    <section id="schedule" className="relative z-10 pt-10 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
