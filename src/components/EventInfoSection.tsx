@@ -96,6 +96,50 @@ const EventInfoSection = () => {
 
         </div>
       </div>
+       <h2 className=" text-4xl md:text-5xl text-center text-foreground mt-7">
+         পুরস্কারসমূহ
+          </h2>
+           <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="flex flex-col  flex-wrap justify-center items-center gap-4 mt-5"
+        >
+        
+
+          <motion.div className="relative overflow-hidden  px-8 py-5 rounded-full text-sm font-semibold flex items-center text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10 bg-card/50" >
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10 text-xl">  প্রথম পুরস্কার উমরাহ টিকিট</span>
+          </motion.div>
+ 
+          <motion.div className="relative overflow-hidden  px-8 py-2 bg-card/50 text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10 ">
+            <motion.div
+              className="absolute top-0 left-0 w-1/2 h-full  bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+              initial={{ x: "-150%" }}
+              animate={{ x: "350%" }}
+              transition={{
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 2,
+                repeatDelay: .4,
+                ease: "easeInOut",
+              }}
+            />
+            <span className="relative z-10 text-xl text-center md:py-2 ">  দ্বিতীয় ও তৃতীয় স্থান অর্জনকারীদের জন্য থাকবে বিশেষ পুরস্কার।</span>
+          </motion.div>
+        </motion.div> 
      <h2 className=" text-4xl md:text-5xl text-center text-foreground mt-7">
          কোর্স সুবিধা সমূহ
           </h2>
@@ -187,50 +231,7 @@ const EventInfoSection = () => {
             <span className="relative z-10">সার্টিফিকেট</span>
           </motion.div>
         </motion.div>     
- <h2 className=" text-4xl md:text-5xl text-center text-foreground mt-7">
-         পুরস্কারসমূহ:
-          </h2>
-           <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="flex flex-col  flex-wrap justify-center items-center gap-4 mt-5"
-        >
-        
 
-          <motion.div className="relative overflow-hidden  px-8 py-5 rounded-full text-sm font-semibold flex items-center text-white shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10" style={{ backgroundColor: '#f98c10' }}>
-            <motion.div
-              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-              initial={{ x: "-150%" }}
-              animate={{ x: "350%" }}
-              transition={{
-                repeat: Infinity,
-                repeatType: "loop",
-                duration: 2,
-                repeatDelay: .4,
-                ease: "easeInOut",
-              }}
-            />
-            <span className="relative z-10 text-xl">  প্রথম পুরস্কার উমরাহ টিকিট</span>
-          </motion.div>
- 
-          <motion.div className="relative overflow-hidden  px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
-            <motion.div
-              className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
-              initial={{ x: "-150%" }}
-              animate={{ x: "350%" }}
-              transition={{
-                repeat: Infinity,
-                repeatType: "loop",
-                duration: 2,
-                repeatDelay: .4,
-                ease: "easeInOut",
-              }}
-            />
-            <span className="relative z-10 text-xl text-center ">  দ্বিতীয় ও তৃতীয় স্থান অর্জনকারীদের জন্য থাকবে বিশেষ পুরস্কার।</span>
-          </motion.div>
-        </motion.div> 
     </section>
   );
 };
