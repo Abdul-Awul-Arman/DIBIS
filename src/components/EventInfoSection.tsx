@@ -212,7 +212,7 @@ const EventInfoSection = () => {
                 ease: "easeInOut",
               }}
             />
-            <span className="relative z-10 text-xl">  প্রথম পুরুস্কার উমরাহ টিকিট</span>
+            <span className="relative z-10 text-xl">  প্রথম পুরস্কার উমরাহ টিকিট</span>
           </motion.div>
  
           <motion.div className="relative overflow-hidden  px-8 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold flex items-center shadow-[inset_0_1px_1px_rgba(255,255,255,0.3)] ring-1 ring-white/10">
